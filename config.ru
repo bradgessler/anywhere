@@ -1,6 +1,11 @@
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), 'lib')
 
-require 'rubygems'
+begin 
+  require '.bundle/environment'
+rescue LoadError
+  puts "Booting from rubygems..."
+end
+
 require 'anywhere'
 
 Anywhere.configure

@@ -1,0 +1,36 @@
+--- 
+dependencies: 
+  dm-adjust: 
+    group: 
+    - :default
+    version: ">= 0"
+  dm-core: 
+    group: 
+    - :default
+    version: ">= 0"
+  rack: 
+    group: 
+    - :default
+    version: ">= 0"
+  do_sqlite3: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- extlib: 
+    version: 0.9.14
+- rack: 
+    version: 1.1.0
+- addressable: 
+    version: 2.1.1
+- dm-core: 
+    version: 0.10.2
+- data_objects: 
+    version: 0.10.1
+- do_sqlite3: 
+    version: 0.10.1
+- dm-adjust: 
+    version: 0.10.2
+hash: 9cc077c3dea21d4dc4bb3c7cc2cc2f0ec37a73e0
+sources: []
+
