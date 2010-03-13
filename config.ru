@@ -3,7 +3,8 @@ $LOAD_PATH.unshift File.join(File.dirname(__FILE__), 'lib')
 begin 
   require '.bundle/environment'
 rescue LoadError
-  puts "Booting from rubygems..."
+  puts "Trying to boot from rubygems..."
+  require 'rubygems'
 end
 
 require 'anywhere'
