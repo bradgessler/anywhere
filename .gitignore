@@ -1,5 +1,4 @@
 .DS_Store
 .bundle
-anywhere.config
-*.db
-*.sqlite3
+/*.db
+/*.config
