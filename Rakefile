@@ -1,5 +1,12 @@
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), 'lib')
 
+begin 
+  require '.bundle/environment'
+rescue LoadError
+  puts "Trying to boot from rubygems..."
+  require 'rubygems'
+end
+
 desc 'Setup a database for anywhere'
 task :db => :env do
   Anywhere::Domain.auto_migrate!
