@@ -1,3 +1,5 @@
+source :gemcutter
+
 gem 'dm-core'
 gem 'dm-adjust'
 gem 'rack'
