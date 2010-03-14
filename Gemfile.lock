@@ -28,9 +28,10 @@ specs:
 - data_objects: 
     version: 0.10.1
 - do_sqlite3: 
-    version: 0.10.1
+    version: 0.10.1.1
 - dm-adjust: 
     version: 0.10.2
-hash: 9cc077c3dea21d4dc4bb3c7cc2cc2f0ec37a73e0
-sources: []
-
+hash: dfc20353bc316d2ed985af37c2144805ecce6d57
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
