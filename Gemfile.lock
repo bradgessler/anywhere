@@ -4,11 +4,15 @@ dependencies:
     group: 
     - :default
     version: ">= 0"
+  rack: 
+    group: 
+    - :default
+    version: ">= 0"
   dm-core: 
     group: 
     - :default
     version: ">= 0"
-  rack: 
+  thin: 
     group: 
     - :default
     version: ">= 0"
@@ -17,8 +21,14 @@ dependencies:
     - :default
     version: ">= 0"
 specs: 
+- daemons: 
+    version: 1.0.10
 - extlib: 
     version: 0.9.14
+- eventmachine: 
+    version: 0.12.10
+- thin: 
+    version: 1.2.7
 - rack: 
     version: 1.1.0
 - addressable: 
@@ -31,7 +41,7 @@ specs:
     version: 0.10.1.1
 - dm-adjust: 
     version: 0.10.2
-hash: dfc20353bc316d2ed985af37c2144805ecce6d57
+hash: 7f57e3fc311dc6df92a8354b3738f90b9f89916c
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
